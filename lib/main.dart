@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text("Image from assets")),
-        body: Image.asset('assets/test_image_1.jpg'),
+        body: Image.asset('assets/test_image_1.jpeg'),
       ),
     );
   }
